@@ -16,6 +16,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(new DrawShape(getApplicationContext()));
     }
 
+    public void drawShape(View v)
+    {
+
+    }
+
     class DrawShape extends View{
         DrawShape(Context context){
             super(context);
